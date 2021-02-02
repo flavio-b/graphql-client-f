@@ -3,7 +3,7 @@
 require 'faraday'
 require_relative "graphql_client_f/version"
 
-module GraphqlClientF
+module GraphQLClientF
   class Client
     BASE_HEADERS = {
       'Content-Type' => 'application/json',
